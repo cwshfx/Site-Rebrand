@@ -32,10 +32,11 @@ main {
     padding-right: min(300px, 30%);
 }
 
-main p {
+main p, a {
     font-family: Arial;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(200, 200, 200);
+    text-decoration: none;
 }
 
 button {
@@ -46,6 +47,6 @@ button {
     font-size: 20px;
     background-color:white;
     border-radius:10px;
-    
+    border: 3px solid rgb(0, 254, 251);
 }
 
