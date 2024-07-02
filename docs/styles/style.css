@@ -11,16 +11,21 @@ nav {
     display: flex;
     gap: 30px;
     align-items: center;
-    font-size: medium;
     font-family: Helvetica;
     padding-left: 30px;
-    padding-top: 7px;
+    padding-top: 10px;
     padding-bottom: 7px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    font-size: large;
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
-    margin-top:20vh;
+    margin-top:6vh;
     margin-bottom:0px;
     font-size: 65px;
     text-decoration: underline;
