@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color: #0d1117;
+    color:white;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: medium;
+    font-family: Helvetica;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top:6vh;
+    margin-bottom:0px;
+    font-size: 65px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 254, 251);
+}
+
+main {
+    padding-left: min(300px, 30%);
+    padding-right: min(300px, 30%);
+}

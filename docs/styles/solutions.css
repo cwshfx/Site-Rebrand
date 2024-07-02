@@ -61,7 +61,7 @@ main p, a {
     border-radius: 5px;
     margin: 1rem;
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 2rem;
     height: 40vh;
     color: black;
     box-shadow: 5px 5px 5px black;
@@ -94,7 +94,7 @@ main p, a {
     width: 100%;
     align-items: start;
     margin: 1rem 0;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-left: 5%;
 }
 
@@ -139,6 +139,14 @@ h1 {
 .title-and-info > p {
     color: gray;
     font-family: "Montserrat", sans-serif;
+}
+
+.additional-notes {
+    display: flex;
+    justify-content: center;
+    color:grey;
+    margin-top:25px;
+    font-style: italic;
 }
 
 
