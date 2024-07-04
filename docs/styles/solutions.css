@@ -154,6 +154,16 @@ h1 {
     font-style: italic;
 }
 
+@media only screen and (max-width: 320px) { /* mobile screen */
+    body {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* tablet view */
+
+}
+
 
 
 

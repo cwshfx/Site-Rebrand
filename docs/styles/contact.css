@@ -36,3 +36,13 @@ main {
     padding-left: min(300px, 30%);
     padding-right: min(300px, 30%);
 }
+
+@media only screen and (max-width: 320px) { /* mobile screen */
+    body {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* tablet view */
+
+}
