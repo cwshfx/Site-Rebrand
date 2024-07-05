@@ -6,7 +6,7 @@
     <title>Solutions | CWS</title>
     <link rel="stylesheet" href="../styles/solutions.css">
     <link rel="icon" type="image/x-icon" href="../images/cws-favicon.png">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
         <nav>
             <img src="../images/logo.png" width="40" height="40">
             <p> <a href="../index.html">Home</a> </p>
-            <p> <u> <a href="./solutions.html">Solutions</a> </u> </p>
+            <p>  <a href="./solutions.html">Solutions</a>  </p>
             <p> <a href="./contact.html">Contact</a> </p>
             
         </nav>
@@ -27,49 +27,52 @@
             <p> Find what solution best suits your needs. </p>
         </div>
         <div class="payment-options-container">
-            <div class="payment-option-box">
-                <div class="product-title">One Time Payment *</div>
-                <div class="product-price">
-                    <span class="price">$450 CAD</span>
-                    <span class="price-info"> One Time</span>
-                </div>
-                <div class="product-features">
-                    <span>
-                        <span class="checkmark">✔</span>
-                        <span class="context"> Professional Website</span>
-                    </span>
-                    <span>
-                        <span class="checkmark">✔</span>
-                        <span class="context"> Hosting services provided</span>
-                    </span>
-                </div>
-               
+            <div class="box">
+                <div class="payment-option-box" data-aos="fade-right">
+                    <div class="product-title">One Time Payment *</div>
+                    <div class="product-price">
+                        <span class="price">$450 CAD</span>
+                        <span class="price-info"> One Time</span>
+                    </div>
+                    <div class="product-features">
+                        <span>
+                            <span class="checkmark">✔</span>
+                            <span class="context"> Professional Website</span>
+                        </span>
+                        <span>
+                            <span class="checkmark">✔</span>
+                            <span class="context"> Hosting services provided</span>
+                        </span>
+                    </div>
+                </div>       
             </div>
-            <div class="payment-option-box">
-                <div class="product-title">Monthly Payment *</div>
-                <div class="product-price">
-                    <span class="price">$50.00 CAD</span>
-                    <span class="price-info"> Monthly</span>
+            <div class="box">
+                <div class="payment-option-box" data-aos="fade-left">
+                    <div class="product-title">Monthly Payment *</div>
+                    <div class="product-price">
+                        <span class="price">$50.00 CAD</span>
+                        <span class="price-info"> Monthly</span>
+                    </div>
+                    <div class="product-features">
+                        <span>
+                            <span class="checkmark">✔</span>
+                            <span class="context"> Professional Website</span>
+                        </span>
+                        <span>
+                            <span class="checkmark">✔</span>
+                            <span class="context"> Hosting services provided</span>
+                        </span>
+                        <span>
+                            <span class="checkmark">✔</span>
+                            <span class="context"> Custom Domain</span>
+                        </span>
+                        <span>
+                            <span class="checkmark">✔</span>
+                            <span class="context"> Unlimited Changes</span>
+                        </span>
+                    </div>
+                    
                 </div>
-                <div class="product-features">
-                    <span>
-                        <span class="checkmark">✔</span>
-                        <span class="context"> Professional Website</span>
-                    </span>
-                    <span>
-                        <span class="checkmark">✔</span>
-                        <span class="context"> Hosting services provided</span>
-                    </span>
-                    <span>
-                        <span class="checkmark">✔</span>
-                        <span class="context"> Custom Domain</span>
-                    </span>
-                    <span>
-                        <span class="checkmark">✔</span>
-                        <span class="context"> Unlimited Changes</span>
-                    </span>
-                </div>
-                
             </div>
         </div>
         <div class="additional-notes">
@@ -77,7 +80,21 @@
                 * Prices may vary depending on the complexity of the website.
             </p>
         </div>
-    
     </main>
+    <footer>
+        <div id="contact">
+            <a href="https://www.instagram.com/cwshfx?igsh=c2l6YWkwNjg3dmd4&utm_source=qr"><img class ="socials" src="../images/iglogo.webp"></a>
+            <a href="https://www.facebook.com/profile.php?id=61560392730161&mibextid=LQQJ4d"><img class="socials" src="../images/fblogo.jpg"></a>
+            <a href="mailto:communitywebsolutionshfx@outlook.com"><img class="socials" id="gmail" src="../images/gmlogo.jpg"></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        offset: 200,
+        duration: 1000,
+        easing: 'ease-in-out'
+        });
+    </script>
 </body>
 </html>

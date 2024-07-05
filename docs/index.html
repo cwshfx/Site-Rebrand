@@ -6,7 +6,7 @@
     <title>Community Web Solutions</title>
     <link rel="icon" type="image/x-icon" href="images/cws-favicon.png">
     <link rel="stylesheet" href="styles/style.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -15,14 +15,14 @@
     <header>
         <nav>
             <img src="images/logo.png" width="40" height="40">
-            <p> <u> <a href="index.html">Home</a> </u> </p>
+            <p> <a href="index.html">Home</a></p>
             <p> <a href="./pages/solutions.html">Solutions</a> </p>
             <p> <a href="./pages/contact.html">Contact</a> </p>
             
         </nav>
     </header>
     <main>
-        <div class="landing">
+        <div class="landing" data-aos="fade-right">
             <h1> Community Web Solutions </h1>
             <p>
                 Professionally hand crafted websites and media management.
@@ -31,7 +31,7 @@
                 <button type="button">Get your solution today!</button>
             </div>
         </div>
-        <div class="who-are-we">
+        <div class="who-are-we" data-aos="fade-left">
             <h1 id="who-title">Who are we?</h1>
             <p id="who-about">
                 Community Web Solutions (CWS) is a team of skilled computer science students aiming to gain real world 
@@ -40,14 +40,31 @@
                 work and hope you also appreciate it enough to work with us! 
 
             </p>
+            <hr>
         </div>
-        <div class="our-mission">
+        <div class="our-mission" data-aos="fade-right">
             <h1 id="who-title">Our Mission</h1>
             <p id="who-about">
                 Our mission is simple; provide you with a website you love! We want your business to flourish and attract
                 as much attention as possible! Why not start with a good website? Why not choose CWS? 
             </p>
+            <hr>
         </div>
     </main>
+    <footer>
+        <div id="contact">
+            <a href="https://www.instagram.com/cwshfx?igsh=c2l6YWkwNjg3dmd4&utm_source=qr"><img class ="socials" src="images/iglogo.webp"></a>
+            <a href="https://www.facebook.com/profile.php?id=61560392730161&mibextid=LQQJ4d"><img class="socials" src="images/fblogo.jpg"></a>
+            <a href="mailto:communitywebsolutionshfx@outlook.com"><img class="socials" id="gmail" src="images/gmlogo.jpg"></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        offset: 200,
+        duration: 1000,
+        easing: 'ease-in-out'
+        });
+    </script>
 </body>
 </html>
